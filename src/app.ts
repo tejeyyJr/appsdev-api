@@ -23,7 +23,7 @@ app.use(hpp());
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     status: "success",
-    message: `${ENV.APP_NAME} instance is healthy - 3B - New Features!`,
+    message: `${ENV.APP_NAME} instance is healthy - 3A - New Features!`,
     timestamp: new Date().toISOString(),
     environment: ENV.NODE_ENV
   });
